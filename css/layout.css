@@ -1,0 +1,61 @@
+body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+
+form {
+	margin: 0;
+	padding-top: 5px;
+
+}
+
+form .search-query {
+	background: #999;
+	border: none;
+
+}
+
+
+input::-webkit-input-placeholder, 
+input::-moz-placeholder {
+    color:white;
+}
+
+.hero-unit {
+	background-color: rgb(129,198,218);
+}
+
+/*p .btn-primary {
+	color: rgb(129,198,218);
+}*/
+
+.alert {
+	padding-top: 15px;
+
+}
+
+#readMore {
+	margin-top: 40px;
+}
+
+#newsletter {
+	text-align: center;
+	background-color: rgb(129,198,218);
+	padding-bottom: 10px;
+}
+
+.control-label {
+	padding-top: 5px;
+	/*text-align: right;*/
+}
+
+/*#myCarousel {
+	width: 450px;
+	height: 260px;
+	
+}*/
+
+/*#hero {
+	height: 600px;
+}
+*/

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Demo</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+
+	<style type="text/css">
+		.box {
+			background: rgba(0,0,0,0.2);
+			text-align: center;
+			margin: 5px 0px;
+			padding-top: 5px;
+		}
+
+		.row2 {
+			margin-top: 5px;
+			margin-bottom: 10px;
+		}
+
+		.Level3 {
+			margin-top: 10px;
+			margin-bottom: 15px;
+		}
+
+		.bottomInner {
+			margin-top: 60px;
+		}
+
+		.bottomMargin {
+			margin-bottom: 0px;
+		}
+
+		.bottomContent {
+			padding: 60px 0px;
+			margin-bottom: 0px;
+		}
+
+	</style>
+	
+</head>
+<body>
+  
+  <div class="row-fluid">
+  	<div class="span2 box">Logo</div>
+  	<div class="span3 offset7 box">Search</div>
+  </div>
+
+  <div class="row-fluid">
+  	<div class="span12 box">1</div>
+  </div>
+
+  <div class="row-fluid">
+  	<div class="span3 box">2</div>
+  	<div class="span3 box">2</div>
+  	<div class="span3 box">2</div>
+  	<div class="span3 box">2</div>
+  </div>
+
+  <div class="row-fluid">
+  	<div class="span2 box">3</div>
+  	<div class="span3 box">3</div>
+  	<div class="span2 box">3</div>
+  	<div class="span3 box">3</div>
+  	<div class="span2 box">3</div>
+  </div>
+
+  <div class="row-fluid">
+  	<div class="span6 box">4</div>
+  	<div class="span6 box">4</div>
+  </div>
+
+  <div class="row-fluid">
+  	<div class="span2 box">5</div>
+  	<div class="span6 offset4 box">5</div>
+  </div>
+
+<!-- Second to bottom -->
+  <div class="row-fluid">
+  	<div class="span12 box">
+  		Level 1
+  		<div class="row-fluid row2">
+	  		<div class="span4 box">
+	  			Level 2
+	  			<div class="row-fluid">
+		  			<div class="span6 box Level3">Level 3</div>
+		  			<div class="span6 box Level3">Level 3</div>
+		  		</div>
+	  		</div>
+	  		<div class="span4 box">Level 2</div>
+	  	</div>
+  	</div>
+  </div>
+
+<!-- Bottom -->
+  <div class="row-fluid">
+  	<div class="span4 box bottomMargin">
+  		<div class="row-fluid bottomInner">
+		  <div class="span4 box bottomContent">Pic</div>
+		  <div class="span8 box bottomContent">Contact Information Goes Here</div>
+		</div>
+	</div>
+	<div class="span4 box bottomMargin">
+	  	<div class="row-fluid bottomInner">
+		  <div class="span4 box bottomContent">Pic</div>
+		  <div class="span8 box bottomContent">Contact Information Goes Here</div>
+		</div>
+	</div>
+  	<div class="span4 box bottomMargin">
+	  	<div class="row-fluid bottomInner">
+	  	  <div class="span4 box bottomContent">Pic</div>
+		  <div class="span8 box bottomContent">Contact Information Goes Here</div>
+		</div>
+	</div>
+  </div>
+
+
+</body>
+</html>
