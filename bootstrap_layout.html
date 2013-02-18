@@ -12,6 +12,12 @@
 <!-- JavaScript -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	  	// $('#popOver').tooltip();
+	  	// $('#popOver').popover();
+	  });//end ready
+	</script>
 
 </head>
 
@@ -128,9 +134,13 @@
 	<!-- Popover -->
 			  <div class="span3"> 
 			  <h3>Sidebar</h3>
-			  <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Integer tincidunt. Cras dapibus.</p>
+			  <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
 			  	<div>
-			  <a href="#" class="btn" data-toggle="popover" data-placement="top" title-data-original-title="Popover on navbar-fixed-top" data-content="And here's some amazing content. It's very engaging. right?">View a popover</a>
+			  <a id="popOver" class="btn" data-toggle="tooltip" data-trigger="hover" data-placement="right" title="Popover" data-content="And here's some amazing content. It's very engaging. right?">View a popover</a>
+
+			  <script type="text/javascript">
+			    $('#popOver').popover();
+			  </script>
 			 	</div> 
 			  </div>
 			</div>  <!-- End Middle row -->
@@ -160,24 +170,22 @@
 			  <div class="span12">
 			  	<h4>Sign up for our newsletter</h4>
 			  	  <div class="row-fluid">
+			  	  	<form class="form-horizontal">	
 			  	  		<div class="control-group">
-						  <label class="control-label span2 offset4" for="inputIcon">Email address</label>
+						  <label class="control-label span2 offset3" for="inputIcon">Email address</label>
 						  <div class="controls">
 						    <div class="input-prepend span3">
 						      <span class="add-on"><i class="icon-envelope"></i></span>
 						      <input id="inputIcon" type="text">
+						    </div>
 						  </div>
-						</div>
-			  	  	</div>
+			  	  		</div>
+			  	    </form>
 			  	  </div>
 			  </div>
 			</div>
 			<hr>
 <!-- Footer -->
-			<!-- <div class="row-fluid">
-			  <div class="span12">
-			  </div>
-			</div> -->
 			<p>&copy; Company 2013</p>
 		</div>  <!--End Container-->
 
