@@ -45,11 +45,11 @@ input::-moz-placeholder {
 	padding-bottom: 10px;
 }
 
-.control-label {
+/*.control-label {
 	padding-top: 5px;
 	padding-right: 10px;
-	/*text-align: right;*/
-}
+	text-align: right;
+}*/
 
 /*#myCarousel {
 	width: 450px;
